@@ -1,0 +1,135 @@
+@media(max-width:1090px) {
+    .description input {
+        width: 300px;
+    }
+
+    .first form {
+        width: 465px;
+    }
+}
+
+@media(max-width:1050px) {
+    .description button {
+        padding: 9px 25px;
+    }
+
+    .description input {
+        width: 250px;
+    }
+
+    .first form {
+        width: 390px;
+    }
+}
+/*For Mobile and tablet screem*/
+@media(max-width:960px) {
+    .description h2 {
+        font-size: 2.2rem;
+        text-align: center;
+    }
+
+    .description input {
+        width: 350px;;
+    }
+
+    .description button {
+        padding: 9px 40px;
+    }
+
+    .first form {
+        width: 100%;
+    }
+
+    footer .content {
+        grid-gap: 60px;
+    }
+
+    footer .services {
+        gap: 60px
+    }
+
+    .centralize {
+        display: flex;
+        justify-content: center;
+    }
+
+    .illustration {
+        width: 100%
+    }
+}
+
+@media(max-width:850px) {
+    .first,
+    .second {
+        padding: 20px;
+        flex-direction: column-reverse;
+    }
+
+    .first .description p {
+        text-align: center;
+    }
+
+    .access {
+        flex-direction: column;
+        text-align: center;
+        gap: 0;
+        padding: 25px;
+    }
+
+    .second {
+        justify-content: center;
+    }
+
+    .second h2 {
+        font-size: 1.4rem;
+        text-align: center;
+    }
+
+    .access .text p {
+        margin-bottom: 25px;
+    }
+
+    footer .content {
+        display: block;
+        grid-gap: 0;
+    }
+
+    footer .services {
+        flex-direction: column;
+        gap: 20px;
+        margin-bottom: 20px;
+    }
+
+    footer .social {
+        justify-content: center;
+    }
+
+    .contacts {
+        margin-bottom: 20px;
+    }
+
+    .description input,
+    .description button,
+    .access .start input,
+    .access .start button {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .access .start form {
+        padding: 30px;
+    }
+
+    header {
+        margin: 20px 20px 0;
+    }
+
+    header img {
+        width: 100px;
+    }
+
+    nav ul li a {
+        margin: 0 15px;
+        font-size: .8rem;
+    }
+}
